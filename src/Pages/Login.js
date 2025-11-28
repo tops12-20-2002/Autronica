@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";   // ✅ Import Link
-import "../App.css"; // keep using your existing styles
+import "../Style.css"; // keep using your existing styles
 
 function Login() {
   const [loginOpen, setLoginOpen] = useState(false);
